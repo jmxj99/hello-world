@@ -1,0 +1,24 @@
+{
+  "name": "JasmineJackson",
+  "version": "1.0.0",
+  "description": "Jasmine \r [Volcano](https://blogs-images.forbes.com/trevornace/files/2016/08/Sakurajima-eruption-volcano-1200x764.jpg?width=960)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmxj99/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmxj99/hello-world/issues"
+  },
+  "homepage": "https://github.com/jmxj99/hello-world#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
