@@ -1,0 +1,65 @@
+h1 { 
+    color: orchid;
+    font-family: fantasy; }
+
+    .highlight {
+        background-color: coral
+    
+    }
+    .container 
+    {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    img {
+        width: 100%;
+    }
+    video {
+        display: block;
+        margin: 0 auto;
+        width: 100%
+    }
+    iframe {
+        width: 100%;
+    }
+#header {
+    border: 12px solid dodgerblue;
+    margin: 50px;
+    padding: 45px; 
+}
+#content {
+    border: 53px dashed whitesmoke;
+    margin: 12px;
+    padding: 32px;
+
+}
+#sidebar {
+    border: 36px groove goldenrod;
+    margin:29px;
+    padding:72px;       
+}
+#footer {
+    border: 27px solid crimson;
+    margin: 12px;
+    padding: 23px;
+}
+h2 {
+    color:orangered
+
+}
+
+#extra {
+    color: blue
+
+}
+#one {
+    color: turquoise
+}
+#two {
+    color: red
+
+}
+#three {
+    color: green
+}
