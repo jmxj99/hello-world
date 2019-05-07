@@ -1,6 +1,9 @@
+body {
+    margin: 0;
+}
 h1 { 
     color: orchid;
-    font-family: fantasy; }
+    font-family: fantasy; } 
 
     .highlight {
         background-color: coral
@@ -12,14 +15,14 @@ h1 {
         width: 100%;
         margin: 0 auto;
     }
+   
     img {
+        display: block;
+        margin: 0; auto;
+        max-width: 500px;
         width: 100%;
     }
-    video {
-        display: block;
-        margin: 0 auto;
-        width: 100%
-    }
+   
     iframe {
         width: 100%;
     }
@@ -38,6 +41,32 @@ h1 {
     border: 36px groove goldenrod;
     margin:29px;
     padding:72px;       
+    top: 0;
+    right: 0;
+}
+#sidebar {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+}
+#navigation ul ul {
+    display: none;
+    position: absolute
+    right: 0;
+}
+#navigation li {
+    position: relative;
+}
+#navigation li {
+    display: inline;
+    top: 0;
+    right: 0;
+    
+}
+#navigation li:first-child {
+    background-color: blueviolet;
 }
 #footer {
     border: 27px solid crimson;
@@ -62,4 +91,14 @@ h2 {
 }
 #three {
     color: green
+}
+#navigation:hover {
+    background-color: aquamarine;
+}
+#navigation ul ul {
+    display: none;
+}
+#navigation a + ul:hover,
+#navigation a:hover + ul {
+    display:block;
 }
